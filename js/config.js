@@ -6,6 +6,6 @@ window._config = {
         // secret: 'r862dcib2dnl0j48k8qfspoegsjlteotff0sl5ahpi8cs2cdblo'
     },
     api: {
-        invokeUrl: '' // e.g. https://rc7nyt4tql.execute-api.us-west-2.amazonaws.com/prod',
+        invokeUrl: 'https://dv902fkoq5.execute-api.ap-southeast-1.amazonaws.com/dev' // e.g. https://rc7nyt4tql.execute-api.us-west-2.amazonaws.com/prod',
     }
 };
