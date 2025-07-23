@@ -10,12 +10,30 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
         <link rel="stylesheet" href="css/font.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="/css/message.css">
+        <style>
+            .signInButton{
+                width: 200px;
+                background-color: white;
+                color: #f50856;
+                padding: 14px 20px;
+                margin: 8px auto 30px;
+                border: none;
+                border-radius: 40px;
+                cursor: pointer;
+                display: block;
+                font-family: "fairplex-wide";
+                font-size: 24px;
+                opacity: 1;
+                font-weight: 700;
+                text-transform: uppercase;
+                -webkit-transition: background-color 0.2s ease-in-out;
+                transition: background-color 0.2s ease-in-out;
+            }
+        </style>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -48,7 +66,7 @@
               <input type="submit" value="Let's Ryde">
             </form>
 
-            <a href="signin.html">Sign In</a>
+            <a class="signInButton" href="signin.html">Sign In</a>
         </section>
 
         <script src="js/vendor/jquery-3.1.0.js"></script>
